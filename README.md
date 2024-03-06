@@ -8,6 +8,6 @@ Have a topic created with the name "pizzaOrders."
 
 Set up a simple console consumer.
 
-The data entered into the form will be processed by the ProducerRecord class and sent to the Kafka topic "pizzaOrders."
+The data entered into the form will be processed by the [ProducerRecord](https://kafka.apache.org/23/javadoc/org/apache/kafka/clients/producer/ProducerRecord.html) class and sent to the Kafka topic "pizzaOrders."
 
 The consumer subscribed to the Kafka topic "pizzaOrders" will be able to see the entered data in real-time.
